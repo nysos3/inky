@@ -1,7 +1,3 @@
-# This repository is no longer maintained.
- 
- Issue reports and pull requests will not be attended.
-
 # Inky
 
 A PHP Implementation of ZURB's Foundation for Email parser ([Inky](https://github.com/zurb/inky)).
@@ -10,7 +6,7 @@ A PHP Implementation of ZURB's Foundation for Email parser ([Inky](https://githu
 
 You can install this bundle using composer
 
-    composer require hampe/inky
+    composer require filipegar/inky
 
 or add the package to your `composer.json` file directly.
 
