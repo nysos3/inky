@@ -1,31 +1,31 @@
 {
-    "name": "filipegar/inky",
-    "description": "PHP Implementation of ZURB's Foundation for Email parser (Inky)",
-    "version":     "1.3.7",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Thomas Hampe",
-            "email": "github@hampe.co"
-        },
-        {
-            "name": "Filipe Garcia",
-            "email": "epilif09@gmail.com"
-        }
-    ],
-    "require-dev": {
-      "phpunit/phpunit": "^6.5"
+  "name": "nysos3/inky",
+  "description": "PHP Implementation of ZURB's Foundation for Email parser (Inky)",
+  "version": "1.3.8",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hampe",
+      "email": "github@hampe.co"
     },
-    "autoload": {
-        "psr-4": {
-          "Hampe\\Inky\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=7.0",
-        "thesoftwarefanatics/php-html-parser": "^1.8"
-    },
-    "replace": {
-        "thampe/inky": "self.version"
+    {
+      "name": "Filipe Garcia",
+      "email": "epilif09@gmail.com"
     }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hampe\\Inky\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "paquettg/php-html-parser": "^3.0"
+  },
+  "replace": {
+    "thampe/inky": "1.3.7"
+  }
 }
