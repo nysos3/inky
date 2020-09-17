@@ -22,7 +22,7 @@
   },
   "require": {
     "php": ">=7.2",
-    "paquettg/php-html-parser": "^3.0"
+    "paquettg/php-html-parser": "^2.0"
   },
   "replace": {
     "thampe/inky": "1.3.7"
